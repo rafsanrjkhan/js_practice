@@ -1,11 +1,23 @@
-var a;
-let b;
-a = 24;
-b ="Rafsan";
-console.log(b);
+var a = 20;
+var b = a;
 console.log(a);
-document.write(a);
-document.write(b);
+console.log(b);
+a = 2;
+b = 33;
+console.log(a + b);
+console.log(b);
+
+
+// var a;
+// let b;
+// a = 24;
+// b ="Rafsan";
+// document.write(a);
+// document.write(b);
+// b = "Ananta";
+// b = 12.12;
+// document.write(b);
+
 
 // var myage = 24;
 // document.write(myage);
