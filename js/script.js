@@ -1,47 +1,58 @@
-//Assignment Operator
-var a = 9;
-var b = 2;
-var c = 5;
-a = b;
-document.write(a);
-d = a + c;
-console.log(d);
+var x;
+x = 3.141;
+x = 34;
+x = 123e5; // 123 * 10 ** 5
+x = 123e-5; // 123 * 10 ** -5
 
-// Conditional Operator
-// var a = (1<8) ? "Hello":"World";
-// document.write(a);
+// Numbers takes 64 bits
 
-// document.write(" ");
+// + can be used for both addition and conatenation
+"34" + "45" // will be string
+34 + "45" // will be string
+"34" + 45 // will be string
+"The result is " + 34 + 45
+34 + 45 + "is the result"
+34 + 45 + "13"
 
-// var b = (1>8) ? "Hello":"World";
-// document.write(b);
+//Numeric Strings
+"25"-"5"
+"25"/"5" // result 10
+"25"*"5"
+"25"%"5"
+"25"+"5" //exception
 
-
-// Logical Operator
-// var a = true;
-// var b = false;
-// var c = false;
-// var d = (4>6);
-// var e = (1<7);
-// var f = (1<-9);
-// document.write(c || b || a);
-// document.write(" ");
-// document.write(a && b);
-// document.write(" ");
-// document.write(d || e);
-// document.write(" ");
-// document.write(d || f);
+//Infinity
+var num = Infinity;
+25/0 // will get Infinity
 
 
+//Hexa Decimal Numbers
+var x = 0xBB
 
-// Comparison Operator
-// var a =4;
-// var b =4;
-// document.write(a == b);
+x.toString() // Returns number as string
 
-// document.write(" ");
+x.toString(16);
 
-// var c = 4;
-// var d = 3;
-// document.write(c == d);
-// this operator alwys return true of false
+var x = 3.1416;
+x.toPrecision();
+x.toPrecision(2);
+x.toPrecision(4);
+x.toPrecision(6);
+
+var x = "123"
+parseInt(x);
+x = "123.45"
+parseFloat(x);
+
+isNaN(x);
+
+// var x;
+// a = 3.141;
+// console.log(a);
+// b = 34;
+// console.log(b);
+// c = 123e5; // 123 * 10 ** 5
+// console.log(c);
+// d = 123e-5; // 123 * 10 ** -5
+// console.log(d);
+// console.log();
