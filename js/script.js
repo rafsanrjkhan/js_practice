@@ -1,8 +1,16 @@
-// Sting Operator
 var a = "Rafsan";
-var b = "Ananta";
-var c = " Khan.";
+var b = 27;
+var c = 45;
 document.write(a + " " + b + c);
+document.write(" ");
+document.write(a + " " + (b + c));
+
+
+// Sting Operator
+// var a = "Rafsan";
+// var b = "Ananta";
+// var c = " Khan.";
+// document.write(a + " " + b + c);
 
 // Priority
 // a = 3 - 5 * 5 / 7;
