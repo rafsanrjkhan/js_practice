@@ -3,7 +3,18 @@ console.log();
 var a = true;
 var b = false;
 var c = false;
+var d = (4>6);
+var e = (1<7);
+var f = (1<-9);
 document.write(c || b || a);
+document.write(" ");
+document.write(a && b);
+document.write(" ");
+document.write(d || e);
+document.write(" ");
+document.write(d || f);
+
+
 
 // Comparison Operator
 // var a =4;
