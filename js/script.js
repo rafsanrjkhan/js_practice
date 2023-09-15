@@ -1,11 +1,20 @@
-// Conditional Operator
-var a = (1<8) ? "Hello":"World";
+//Assignment Operator
+var a = 9;
+var b = 2;
+var c = 5;
+a = b;
 document.write(a);
+d = a + c;
+console.log(d);
 
-document.write(" ");
+// Conditional Operator
+// var a = (1<8) ? "Hello":"World";
+// document.write(a);
 
-var b = (1>8) ? "Hello":"World";
-document.write(b);
+// document.write(" ");
+
+// var b = (1>8) ? "Hello":"World";
+// document.write(b);
 
 
 // Logical Operator
