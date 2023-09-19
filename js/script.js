@@ -1,32 +1,35 @@
-console.log()
-// Premitive types
-// number, string, boolean
+// Template literals (ES6)
+// console.log("first line \nthird line");
+// console.log("second line");
 
-// deals with value
-// different address
-let a = 7;
-let b = a; // b = 7
-a = 45;
-console.log(b);
+// Backtick ``
+console.log(`first line
+second line`);
+let a = `rafsan
+ananta`;
+console.log(a);
 
-// Refenrence type
-// array, object
-// address
-let numbers = [1, 2, 3]
-let newNumbers = numbers;
-console.log(newNumbers); // [1, 2, 3]
-numbers[1] = 500;
-console.log(numbers); // [1, 500, 3]
-console.log(newNumbers); // [1, 500, 3]
+let name = "Rafsan";
+let age = 24;
+let dob = "(18 ,nov, 1998)"
+console.log("His age is " + name, "and age is " + age);
+console.log(`My age is ${ age }`);
+console.log(`My name is ${name}
+My age is ${age}
+My Birth date is ${dob}`);
+ 
+var x = 67;
+var y = 89;
+console.log(`Total Result: ${x} + ${y} = ${ x + y}`);
 
+// let name = "Rahim";
+// let age = "38";
+// let dob = "21 June, 1983";
 
-// student = {name:"Rahim", age:25, hometown:"Dhaka"}
-// student["name"]
-// student.name
+// console.log(`His name is ${name}
+// His age is ${age}
+// Date of Birth ${dob}`);
 
-
-// student = {}
-// student["name"] = "Rahim"
-
-
-// delete simanta.name 
+// let a = 34
+// let b = 67
+// console.log(`${a} + ${b} = ${ a + b }`);
